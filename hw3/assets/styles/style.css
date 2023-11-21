@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+}
+
+@font-face{
+    font-family: "Gilroy-Semibold";
+    src: url("../fonts/gilroy-semibold.ttf");
+    font-style: normal;
+    font-weight: 400;
+    }
+    
+    @font-face{
+    font-family: "Gilroy-Bold";
+    src: url("../fonts/gilroy-bold.ttf");
+    font-style: normal;
+    font-weight: 400;
+    }
+    
+    @font-face{
+    font-family: "Gilroy-Medium";
+    src: url("../fonts/gilroy-medium.ttf");
+    font-style: normal;
+    font-weight: 400;
+    }
+    
+    @font-face{
+    font-family: "Gilroy-Regular";
+    src: url("../fonts/gilroy-regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+    }
+
+.intro{
+   display: flex; 
+   justify-content: space-between;  
+   width: 1274px;
+   height: 536px;
+   margin-left: 316px;
+   margin-right: 330px;
+   margin-top: 149px; 
+}
+.intro-title{
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.intro-text{
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.intro-image {
+    width: 544.814px;
+    height: 374.843px;
+    flex-shrink: 0;
+    margin-right: 440x;
+}
+
+.logo-head {
+    width: 137px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.menu{
+    color: #000;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    justify-content: space-between;
+    text-decoration-line: none;
+}
+
+.menu-1{
+    color: #F25822; 
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+.button{
+   display: flex; 
+
+}
+.button-text{
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.next-to-button-text{
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
