@@ -106,7 +106,7 @@
     height: 50px;
     flex-shrink: 0;
     border-radius: 50px;
-    border-color: none;
+    border: none;
     background: #F25822;
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
     padding: 15px 36px ;
@@ -253,17 +253,19 @@
     gap: 30px;
     margin-left: auto;
     margin-right: auto;
+    max-width: 1170px; /*чтобы не было скрола нужно задвать max min width а не точный размер!*/
 }
 .content-item{
     display: flex;
     flex-direction: column;
-    padding: 25px 30px 50px 30px;  
 }
 
 .in-item{
-    display: flex;
     flex-direction: column;
     text-align: center; 
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .in-item-header{
@@ -283,17 +285,19 @@
     margin-bottom: 39px;
 }
 .in-item-button{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    padding: 15px 36px ;
-    gap: 6px; 
-    
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: none;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    padding: 15px 36px;
+       
     color: #FFF;
     font-family: Gilroy-Bold;
     font-size: 13px;
     font-weight: 400;
     line-height: 150%; /* 19.5px */
 
+    width: fit-content;
 }
